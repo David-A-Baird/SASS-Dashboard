@@ -1,0 +1,63 @@
+header {
+  font-family: Arial;
+}
+header .logotainer {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+header .logotainer .dashy {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline;
+}
+
+body {
+  font-family: Arial;
+}
+body .sidenav {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+body .sidenav li {
+  padding: 0.5rem 0 0.5rem 0;
+  text-indent: -1rem;
+}
+body .top-boxes {
+  display: flex;
+  display: inline-block;
+  width: 70%;
+}
+body .top-boxes .box-black {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 30%;
+}
+body .top-boxes .box-black .box-topper-black {
+  transform: translateX(2rem);
+  font-size: 0.75rem;
+  color: white;
+}
+body .top-boxes .box-black .big-num-black {
+  text-indent: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+body .top-boxes .box {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  width: 30%;
+}
+body .top-boxes .box .box-topper {
+  transform: translateX(2rem);
+  font-size: 0.75rem;
+  color: black;
+}
+body .top-boxes .box .big-num {
+  text-indent: 2rem;
+  font-size: 2rem;
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
