@@ -1,20 +1,27 @@
 header {
     font-family: Arial;
+    transform: translateX(25%);
 
     .logotainer {
         display: flex;
         justify-content: space-between;
         width: 40%;
-
-        .dashy {
+    }
+}
+.dashy {
             font-size: 2rem;
             font-weight: bold;
             display: inline;
-        }
-    }
 }
+
 body {
     font-family: Arial;
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-28%);
+    }
 
     .sidenav {
         list-style: none;
@@ -29,13 +36,15 @@ body {
     .top-boxes {
         display: flex;
         display: inline-block;
+        transform: translate(25%, -114%);
         width: 70%;
 
         .box-black {
             display: flex;
+            display: inline-block;
             flex-direction: column;
             background-color: black;
-            width: 30%;
+            width: 35%;
 
             .box-topper-black {
                 transform: translateX(2rem);
@@ -52,9 +61,11 @@ body {
 
         .box {
             display: flex;
+            display: inline-block;
             flex-direction: column;
             background-color: #f8f8f8;
-            width: 30%;
+            width: 35%;
+            flex-wrap: wrap;
 
             .box-topper {
                 transform: translateX(2rem);
@@ -69,4 +80,48 @@ body {
             }
         }
     }
+
+    .bottom-boxes {
+        display: flex;
+        width: 70%;
+        transform: translate(25%, -114%);
+        
+        .graph {
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+
+            .bottom-topper {
+                display: inline;
+                font-size: 1.5rem;
+                transform: translateY(5%);
+            }
+
+            .small {
+                display: inline-block;
+                transform: translateY(-204%);
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .balance {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        transform: translate(25%, -114%);
+    }
+}
+
+.fa-caret-down {
+    color: #b80000;
+}
+
+.long-image {
+    transform: translate(35%, -175%);
+    width: 50%;
 }
